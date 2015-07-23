@@ -12,7 +12,7 @@ module SampleFeeds
     sample_rss_feed_burner_feed: "TechCrunch.xml",
     sample_rss_feed_burner_entry_content: "TechCrunchFirstEntry.xml",
     sample_rss_feed_burner_entry_description: "TechCrunchFirstEntryDescription.xml",
-    sample_rss_feed: "TenderLovemaking.xml",
+    sample_rss_feed: "news_authors_p1.xml",
     sample_rss_entry_content: "TenderLovemakingFirstEntry.xml",
     sample_feedburner_atom_feed: "PaulDixExplainsNothing.xml",
     sample_feedburner_atom_entry_content: "PaulDixExplainsNothingFirstEntryContent.xml",

@@ -68,7 +68,6 @@ module Feedjira
       xml = response.body
       parser_klass = determine_feed_parser_for_xml xml
       raise NoParserAvailable.new("No valid parser for XML.") unless parser_klass
-
       feed = parse_with parser_klass, xml
       feed.feed_url = url
       feed.etag = response.headers['etag'].to_s.gsub(/"/, '')

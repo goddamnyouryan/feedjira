@@ -1,5 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../lib/feedjira')
 require 'sample_feeds'
+require 'debugger'
 
 SAXMachine.handler = ENV['HANDLER'].to_sym if ENV['HANDLER']
 
