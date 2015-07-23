@@ -16,13 +16,13 @@ module Feedjira
 
       element :"media:content", :as => :image, :value => :url
       element :enclosure, :as => :image, :value => :url
+      element :image, :as => :image
 
       element :pubDate, :as => :published
       element :pubdate, :as => :published
       element :"dc:date", :as => :published
       element :"dc:Date", :as => :published
       element :"dcterms:created", :as => :published
-
 
       element :"dcterms:modified", :as => :updated
       element :issued, :as => :published
@@ -31,7 +31,5 @@ module Feedjira
       element :guid, :as => :entry_id
       element :"dc:identifier", :as => :entry_id
     end
-
   end
-
 end
